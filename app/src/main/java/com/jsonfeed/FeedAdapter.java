@@ -44,7 +44,6 @@ public class FeedAdapter extends RecyclerView.Adapter<FeedItemHolder> {
         String url = mDataset.get(position).getImageHref();
 
         feedItemHolder.feedImage.setDefaultImageResId(R.drawable.ic_default_image);
-        if (url != null)
             feedItemHolder.feedImage.setImageUrl(url, imageLoader);
     }
 
