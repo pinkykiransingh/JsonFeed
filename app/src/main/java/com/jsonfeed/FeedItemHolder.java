@@ -14,7 +14,7 @@ public class FeedItemHolder extends RecyclerView.ViewHolder {
 
     public FeedItemHolder(View view) {
         super(view);
-        tittle = (TextView) view.findViewById(R.id.feedTitle);
+        tittle = (TextView) view.findViewById(R.id.feed_title);
         description = (TextView) view.findViewById(R.id.feedDescription);
         feedImage = (NetworkImageView) view.findViewById(R.id.icon);
     }
